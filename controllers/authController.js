@@ -126,7 +126,7 @@ export const tutorialController = async (req, res) =>{
       return res.send({ message: "Link is Required" });
     }
   
-     console.log(name);
+    //  console.log(name);
 
     //save
     const video = await new tutorialModel({
@@ -151,7 +151,7 @@ export const tutorialController = async (req, res) =>{
 
 export const gettutorialController = async(req,res) =>{
 
-  console.log("request agaya");
+  // console.log("request agaya");
 
   try {
     const vds = await tutorialModel
@@ -170,7 +170,7 @@ export const gettutorialController = async(req,res) =>{
     });
   }
 
-  console.log("response chala gaya agaya");
+  // console.log("response chala gaya agaya");
 
 
 }

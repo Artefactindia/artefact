@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/landing.css";
-import b1 from '../photoes/b1.png'
+import b1 from '../photoes/banner1.jpg'
+
 
 const Landing = () => {
 
@@ -16,21 +17,21 @@ const Landing = () => {
         <div className="carousel-inner" style={{ height: "70%" }}>
           <div className="carousel-item active">
             <img
-              src="https://tulsiresin.com/cdn/shop/files/3_YEARS_Website_Banner_1900x.progressive.jpg?v=1689357048"
+              src={b1}
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://tulsiresin.com/cdn/shop/files/online_resin_workshop_website_1900x.progressive.jpg?v=1677150932"
+             src="https://tulsiresin.com/cdn/shop/files/3_YEARS_Website_Banner_1900x.progressive.jpg?v=1689357048"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://tulsiresin.com/cdn/shop/files/3_YEARS_Website_Banner_1900x.progressive.jpg?v=1689357048"
+             src={b1}
               className="d-block w-100"
               alt="..."
             />

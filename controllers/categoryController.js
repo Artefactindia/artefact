@@ -4,7 +4,7 @@ export const createCategoryController = async (req, res) => {
   try {
     const { name ,subName } = req.body;
 
-    console.log(`${name} and ${subName}`);
+    // console.log(`${name} and ${subName}`);
 
     if (!name) {
       return res.status(401).send({ message: "Name is required" });
@@ -97,7 +97,7 @@ export const subCategoryControlller = async (req, res) => {
   try {
 
     const { key } = req.body;
-    console.log(key)
+    // console.log(key)
     const ans = await categoryModel.find({_id:key});
 
     res.status(200).send({
@@ -137,13 +137,13 @@ export const singleCategoryController = async (req, res) => {
 // single category
 export const singleCategoryWithSubCategoryController = async (req, res) => {
 
-  console.log(req.params.slug);
-  console.log(req.params.sn);
+  // console.log(req.params.slug);
+  // console.log(req.params.sn);
 
   try {
     const category = await categoryModel.findOne({ slug: req.params.slug ,"subName.name" :req.params.sn }  );
 
-    console.log(category);
+    // console.log(category);
     res.status(200).send({
       success: true,
       message: "Get Single Category SUccessfully",

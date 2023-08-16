@@ -17,9 +17,9 @@ const Tutorials = () => {
             `/api/v1/auth/gettutorial`
           );
 
-        console.log(data?.vds)
+        // console.log(data?.vds)
         setTuts(data?.vds)
-        console.log(tuts)
+        // console.log(tuts)
         
     } catch (error) {
         console.log(error);
