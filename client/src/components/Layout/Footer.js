@@ -21,7 +21,7 @@ const Footer = () => {
                   <span />
                 </h5>
                 <p>
-                  Best epoxy resin supplier in India. Tulsi resin store is a top
+                  Artefact is a best art and craft supplier in India. Artefact store is a top
                   player in the category of Epoxy Resin Craft Materials, Clock
                   Materials, Shells, and other craft materials in India. This
                   well-known establishment acts as a one-stop destination
